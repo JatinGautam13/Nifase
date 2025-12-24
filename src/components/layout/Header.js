@@ -90,7 +90,7 @@ const Header = () => {
           {/* Logo */}
           <div className={styles.leftSection}>
             <a href="/#home" className={styles.logo}>
-              <span className={styles.logoText}>Nifase</span>
+              <img src="/NIFASE_Logo-removebg-preview.png" alt="Nifase Logo" className={styles.logoImg} height="40" />
             </a>
 
             {/* Desktop Navigation */}
@@ -143,9 +143,6 @@ const Header = () => {
             </a>
             <a href="/auth/sign-up" className={styles.getStartedBtn}>
               Get Started
-              <svg className={styles.zapIcon} width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" />
-              </svg>
             </a>
           </div>
 

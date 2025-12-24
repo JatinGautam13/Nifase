@@ -11,31 +11,23 @@ const HomeSection1 = ({ user }) => {
             <div className={styles.heroWrapper}>
                 <div className={styles.heroContent}>
                     {/* Badge */}
-                    <button className={styles.badge}>
-                        <span className={styles.spark} />
-                        <span className={styles.backdrop} />
-                        <span className={styles.blur} />
-                        <span className={styles.badgeText}>
-                            ✨ Manage links smarter
-                            <ArrowRightIcon className={styles.badgeIcon} />
-                        </span>
-                    </button>
+                    
 
-                    {/* Heading */}
+                    {/* Main Headline */}
                     <h1 className={styles.heading}>
-                        Smart Links with{' '}
-                        <span className={styles.gradient}>
-                            Precision
-                        </span>
+                        Master The <span className={styles.gradient}>Stock Market</span> & <span className={styles.gradient}>Finance</span>
                     </h1>
 
-                    {/* Description */}
+                    
+
+                    {/* Highlight Line */}
+                    <div className={styles.gradient} style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.5rem' }}>
+                        Trading, Investment, And Financial Markets
+                    </div>
+
+                    {/* Subheadline */}
                     <p className={styles.description}>
-                        Effortlessly streamline your link management with Linkify.
-                        <br className={styles.lineBreak} />
-                        <span className={styles.subDescription}>
-                            Shorten, track, and organize all your links in one place.
-                        </span>
+                        Launch your career with practical stock market & finance training aligned with real market conditions.<br className={styles.lineBreak} />
                     </p>
 
                     {/* CTA Button */}
@@ -44,10 +36,51 @@ const HomeSection1 = ({ user }) => {
                             href={user ? "/dashboard" : "/auth/sign-in"} 
                             className={styles.ctaButton}
                         >
-                            Start creating for free
+                            Start learning now
                             <ArrowRightIcon className={styles.ctaIcon} />
                         </Link>
+                        
                     </div>
+                    {/* Scrolling Courses Ticker */}
+                   <div className={styles.tickerWrapper}>
+  <div className={styles.ticker}>
+    <div className={styles.tickerTrack}>
+      {[
+        "Technical Analysis",
+        "Fundamental Analysis",
+        "Options Trading",
+        "Equity Research",
+        "Portfolio Management",
+        "Algo Trading",
+        "Derivatives",
+        "Risk Management",
+        "Financial Modelling"
+      ].map((course, idx) => (
+        <span key={course + idx} className={styles.tickerButton}>
+          {course}
+        </span>
+      ))}
+
+      {/* duplicate */}
+      {[
+        "Technical Analysis",
+        "Fundamental Analysis",
+        "Options Trading",
+        "Equity Research",
+        "Portfolio Management",
+        "Algo Trading",
+        "Derivatives",
+        "Risk Management",
+        "Financial Modelling"
+      ].map((course, idx) => (
+        <span key={course + "dup" + idx} className={styles.tickerButton}>
+          {course}
+        </span>
+      ))}
+    </div>
+  </div>
+</div>
+
                 </div>
             </div>
         </div>

@@ -1,0 +1,57 @@
+/* StockLoader.module.css */
+.loaderBg {
+  background: #000;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+  inset: 0;
+  pointer-events: all;
+}
+
+
+.barGraph {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 60px;
+  margin-bottom: 1.5rem;
+  gap: 8px;
+}
+
+.bar {
+  width: 12px;
+  height: 30px;
+  background: linear-gradient(180deg, #a3e635 80%, #4ade80 100%);
+  border-radius: 6px 6px 2px 2px;
+  animation: barMove 1.1s ease-in-out infinite alternate;
+}
+
+@keyframes barMove {
+  0% { height: 20px; }
+  50% { height: 60px; }
+  100% { height: 25px; }
+}
+
+.loaderText {
+  color: #a3e635;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}

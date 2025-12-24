@@ -1,12 +1,67 @@
+.tickerWrapper {
+    border-top: 1px solid white;
+    border-bottom: 1px solid #a3e635;
+    background-color: #000;
+    padding: 10px 0;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.ticker {
+    width: 100%;
+    overflow: hidden;
+}
+
+.tickerTrack {
+    display: flex;
+    width: max-content;
+    animation: tickerMove 40s linear infinite;
+}
+
+.tickerButton {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, #22c55e23 60%, #4ade802b 100%);
+    color: #a2e635e8;
+    border: 1px solid #a3e635;
+    border-radius: 999px;
+    padding: 0.35em 1.2em;
+    margin: 0 0.5em;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+@keyframes tickerMove {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
 /* Container */
 .container {
     overflow-x: hidden;
     width: 100%;
-    min-height: 100vh;
     background: #000000;
     /* background-color: #8b5cf6; */
     position: relative;
     overflow-y: hidden;
+    margin-top: 50px;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('/ayoohill.webp') center center/cover no-repeat;
+    opacity: 0.20;
+    z-index: 0;
+    pointer-events: none;
+    filter: grayscale(1) sepia(1) hue-rotate(90deg) saturate(2);
+    /* grayscale + sepia + hue-rotate(90deg) shifts to green, saturate enhances */
 }
 
 .container::before {
@@ -31,7 +86,7 @@
     background: transparent;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 6rem 1rem 4rem;
+    padding: 1rem 0.5rem 0px 0.5rem;
     position: relative;
     z-index: 1;
 }
@@ -61,7 +116,7 @@
     backdrop-filter: blur(10px);
     transition: all 300ms ease;
     cursor: pointer;
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem;
 }
 
 .badge:hover {
@@ -109,8 +164,8 @@
     color: #ffffff;
     text-align: center;
     padding: 0;
-    margin: 0 0 2rem;
-    font-size: 3.5rem;
+    margin: 0.25rem 0 0.75rem;
+    font-size: 5rem;
     font-weight: 700;
     letter-spacing: -0.02em;
     line-height: 1.1;
@@ -129,7 +184,7 @@
 
 /* Description */
 .description {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-size: 1.125rem;
     line-height: 1.6;
     letter-spacing: -0.01em;
@@ -152,8 +207,9 @@
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-  gap: 1rem;
-  z-index: 50;
+    gap: 0.5rem;
+    z-index: 50;
+    margin-top: 0.5rem;
 }
 
 .ctaButton {
@@ -167,15 +223,17 @@
   transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
   height: 2.5rem;
   padding: 0.5rem 1.4rem;
-  background: linear-gradient(135deg, #22c55e, #4ade80);
+  background: #a3e635;
   color: #020617;
+  font-weight: 700;
+  font-family: var(--font-heading, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif);
   text-decoration: none;
   box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4);
 }
 
 .ctaButton:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #16a34a, #22c55e);
+  background: #88c920;
   box-shadow: 0 12px 32px rgba(34, 197, 94, 0.6);
 }
 
@@ -259,18 +317,18 @@
 }
 
 /* Responsive Design */
-@media (min-width: 640px) {
+@media (max-width: 640px) {
     .container {
     min-height: 68vh;
     }
     .heading {
-        font-size: 4.5rem;
+        font-size: 2rem;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .heading {
-        font-size: 5.5rem;
+        font-size: 3rem;
     }
 
     .description {
@@ -278,7 +336,7 @@
     }
 
     .heroWrapper {
-        padding: 8rem 3rem 4rem;
+        padding: 4rem 2rem 0px 2rem;
     }
 
     .previewWrapper {
@@ -296,13 +354,13 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .heading {
-        font-size: 6.5rem;
+        font-size: 3em;
     }
 
     .heroWrapper {
-        padding: 5rem 5rem 6rem;
+        padding: 30px 20px 0 20px;
     }
 
     .previewContainer {
