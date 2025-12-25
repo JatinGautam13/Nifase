@@ -49,8 +49,8 @@
 .card {
   background: linear-gradient(180deg, #0c140f, #060a07);
   border: 1px solid rgba(124, 255, 0, 0.15);
-  border-radius: 20px;
-  padding: 34px 30px;
+  border-radius: 14px;
+  padding: 14px 10px;
   transition: border-color 0.3s ease, box-shadow 0.3s ease,
     transform 0.3s ease;
 }
@@ -124,6 +124,19 @@
   font-size: 14px;
   line-height: 1.6;
   color: #d6d6d6;
+}
+
+/* IMAGE */
+
+.courseImage {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: block;
 }
 
 /* RESPONSIVE */
