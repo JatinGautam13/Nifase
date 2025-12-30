@@ -9,6 +9,23 @@
     "shortDescription": "A practical + theory program covering capital markets, derivatives, and technical analysis.",
     "image": "/certificate in stock marketing.PNG",
     "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.8,
+    "reviewCount": 31886,
+    "likedPercent": 97,
+    "enrolledCount": 2343830,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts Dec 30",
+    "skills": [
+      "Financial Markets",
+      "Capital Markets",
+      "Derivatives",
+      "Technical Analysis",
+      "Risk Management",
+      "Trading Basics",
+      "Market Operations",
+      "Futures & Options"
+    ],
     "modules": [
       {
         "title": "Module 1: Capital Market (Theory & Practical)",
@@ -61,6 +78,23 @@
     "shortDescription": "A comprehensive, career-focused program spanning trading, derivatives, commodities, advanced technical + fundamental analysis, and market operations.",
     "image": "/diploma in financial marketing.PNG",
     "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.7,
+    "reviewCount": 12640,
+    "likedPercent": 96,
+    "enrolledCount": 512430,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts this week",
+    "skills": [
+      "Capital Market Trading",
+      "Derivatives",
+      "Commodity Markets",
+      "Currency Markets",
+      "Technical Analysis",
+      "Fundamental Analysis",
+      "Options Strategies",
+      "Portfolio Basics"
+    ],
     "modules": [
       {
         "title": "Module 1: Capital Market Trading Module (Theory & Practical)",
@@ -254,6 +288,23 @@
     "shortDescription": "A diploma program focused on capital market trading, derivatives, commodity/currency markets, advanced technical analysis, and fundamental analysis.",
     "image": "/diploma in financial marketing.PNG",
     "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 9420,
+    "likedPercent": 95,
+    "enrolledCount": 210740,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Capital Markets",
+      "Derivatives",
+      "Commodity & Currency",
+      "Chart Reading",
+      "Indicators",
+      "Risk Management",
+      "Trading Setup",
+      "Market Psychology"
+    ],
     "modules": [
       {
         "title": "Module 1: Capital Market Trading Module (Theory & Practical)",
@@ -374,6 +425,23 @@
     "shortDescription": "A focused program to build strong fundamentals in equity research, valuation, reporting, and analytical tools.",
     "image": "/diploma in research analysis.PNG",
     "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.7,
+    "reviewCount": 4580,
+    "likedPercent": 97,
+    "enrolledCount": 164220,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts Dec 30",
+    "skills": [
+      "Equity Research",
+      "Valuation Basics",
+      "Financial Statements",
+      "Industry Analysis",
+      "Company Analysis",
+      "Excel Basics",
+      "Report Writing",
+      "Portfolio Concepts"
+    ],
     "modules": [
       {
         "title": "Module 1: Understanding Financial Jargons",
@@ -502,6 +570,23 @@
     "shortDescription": "A short-term program designed to build practical understanding of equity markets, dealing process, technical + fundamental basics, and trading discipline.",
     "image": "/certificate in stock marketing.PNG",
     "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 6120,
+    "likedPercent": 96,
+    "enrolledCount": 189300,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Equity Markets",
+      "Order Types",
+      "Dealing Process",
+      "Chart Basics",
+      "Technical Analysis",
+      "Fundamental Basics",
+      "Risk Management",
+      "Trading Discipline"
+    ],
     "modules": [
       {
         "title": "Module 1: Introduction to Indian Financial Markets",
