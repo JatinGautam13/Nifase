@@ -37,15 +37,7 @@ const Header = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
 
   const navLinks = [
-    {
-      title: 'Features',
-      menu: [
-        { title: 'How It Works', href: '#how-it-works', tagline: 'Learn about our process' },
-        { title: 'Programs', href: '#programs', tagline: 'Explore trading programs' },
-        { title: 'Analytics', href: '#analytics', tagline: 'Track your performance' },
-        { title: 'Trading Rules', href: '#rules', tagline: 'Understand the guidelines' },
-      ]
-    },
+    { title: 'Home', href: '/' },
     {
       title: 'Resources',
       menu: [
@@ -57,6 +49,7 @@ const Header = () => {
     },
     { title: 'Contact', href: '/contact-us' },
     { title: 'About', href: '/about' },
+    { title: 'Courses', href: '/courses' },
   ];
 
   const handleScroll = () => {
