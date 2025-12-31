@@ -1,0 +1,150 @@
+.hero {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    /* radial-gradient(circle at 35% 45%, hsl(var(--primary) / 0.16) 0%, transparent 55%), */
+    linear-gradient(180deg, hsl(var(--card)), hsl(var(--background)));
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    linear-gradient(hsl(var(--foreground) / 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--foreground) / 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 4rem 0rem 0rem;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+  margin: 0 0 1.5rem 0;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.highlight {
+  color: hsl(var(--primary));
+  font-style: italic;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: hsl(var(--muted-foreground));
+  margin: 0 0 3rem 0;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.joinButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: var(--gradient-primary);
+  color: hsl(var(--primary-foreground));
+  border: 1px solid hsl(var(--primary) / 0.65);
+  padding: 0.95rem 2.4rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-glow);
+}
+
+.joinButton:hover {
+  transform: translateY(-2px);
+  border-color: hsl(var(--accent) / 0.75);
+}
+
+.joinIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.reviewsLink {
+  color: hsl(var(--muted-foreground));
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.reviewsLink:hover {
+  color: hsl(var(--foreground));
+  transform: translateX(5px);
+}
+
+.starIcon {
+  width: 16px;
+  height: 16px;
+  color: hsl(var(--primary));
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .actions {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .joinButton {
+    padding: 0.875rem 2.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .hero {
+    min-height: 60vh;
+  }
+  
+  .container {
+    padding: 3rem 1.5rem;
+  }
+}

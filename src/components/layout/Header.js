@@ -161,8 +161,8 @@ const Header = () => {
           <div className={styles.mobileMenuContent}>
             {/* Mobile Auth Buttons */}
             <div className={styles.mobileAuthButtons}>
-              <a href="/auth/sign-in" className={styles.mobileSignInBtn}>
-                Sign In
+              <a href="/contact-us" className={styles.mobileSignInBtn}>
+                contact
               </a>
               <button
                 type="button"

@@ -684,5 +684,2032 @@
         ]
       }
     ]
+  },
+  {
+    "id": "algo-8w",
+    "slug": "algo-trading-course",
+    "title": "ALGO TRADING COURSE",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "8–10 Weeks",
+    "shortDescription": "A structured, beginner-friendly program to understand algo trading concepts, build rule-based strategies, learn Python basics, and practice with paper trading + backtesting.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.7,
+    "reviewCount": 3810,
+    "likedPercent": 97,
+    "enrolledCount": 90240,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Algo Trading Concepts",
+      "Rule-Based Strategies",
+      "Python Basics",
+      "Backtesting",
+      "Performance Metrics",
+      "Risk Management",
+      "Paper Trading",
+      "Systematic Mindset"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Introduction to Algo Trading",
+        "items": [
+          "What is algorithmic trading",
+          "Difference between manual & algo trading",
+          "Where algo trading is used (institutional & retail)",
+          "Myths vs reality of algo trading"
+        ]
+      },
+      {
+        "title": "Module 2: Market Foundations for Algo Trading",
+        "items": [
+          "Market structure & price behavior",
+          "Instruments suitable for algo trading",
+          "Timeframes & liquidity concepts",
+          "Data-driven trading mindset"
+        ]
+      },
+      {
+        "title": "Module 3: Trading Strategies & Logic Building",
+        "items": [
+          "Rule-based trading systems",
+          "Trend-following vs mean-reversion strategies",
+          "Entry, exit & stop-loss logic",
+          "Position sizing concepts"
+        ]
+      },
+      {
+        "title": "Module 4: Basics of Programming for Algo Trading",
+        "items": [
+          "Introduction to Python (logic-focused)",
+          "Variables, conditions, loops",
+          "Writing simple trading rules",
+          "Understanding APIs (concept level)"
+        ]
+      },
+      {
+        "title": "Module 5: Strategy Development & Backtesting",
+        "items": [
+          "What is backtesting & why it matters",
+          "Historical data usage",
+          "Performance metrics (drawdown, win-rate, expectancy)",
+          "Avoiding overfitting"
+        ]
+      },
+      {
+        "title": "Module 6: Risk Management in Algo Trading",
+        "items": [
+          "Capital allocation rules",
+          "Max drawdown control",
+          "Risk per trade logic",
+          "Portfolio-level risk concepts"
+        ]
+      },
+      {
+        "title": "Module 7: Paper Trading & Simulation",
+        "items": [
+          "Simulated execution of strategies",
+          "Monitoring performance",
+          "Strategy refinement",
+          "Understanding execution delays & slippage",
+          "No real money deployment during training"
+        ]
+      },
+      {
+        "title": "Module 8: Algo Trading for Investors vs Traders",
+        "items": [
+          "Long-term systematic investing models",
+          "Swing / intraday algo approaches (conceptual)",
+          "Strategy selection based on profile"
+        ]
+      },
+      {
+        "title": "Module 9: Compliance, Ethics & Limitations",
+        "items": [
+          "Regulatory overview (education level)",
+          "Algo trading risks & limitations",
+          "Responsible usage of automation",
+          "Why discipline matters more than automation"
+        ]
+      },
+      {
+        "title": "Module 10: Roadmap & Next Steps",
+        "items": [
+          "How to continue learning post-course",
+          "Transition from manual to systematic trading",
+          "Scaling responsibly",
+          "Skill roadmap (advanced data & systems)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "share-algo-6w",
+    "slug": "share-market-course-for-algo-traders",
+    "title": "SHARE MARKET COURSE FOR ALGO TRADERS",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "6–8 Weeks",
+    "shortDescription": "An algo-first stock market foundation course focused on market behavior, liquidity, price action, and converting observations into rule-based thinking.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 2140,
+    "likedPercent": 96,
+    "enrolledCount": 60120,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Market Structure",
+      "Liquidity Concepts",
+      "Price Action",
+      "Volatility Basics",
+      "Technical Analysis (Rule-Based)",
+      "Risk Concepts",
+      "Systematic Thinking",
+      "Live Market Observation"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Introduction to Stock Markets (Algo Perspective)",
+        "items": [
+          "How stock markets function",
+          "Role of price, volume, and liquidity",
+          "Why market behavior matters for algorithms",
+          "Discretionary vs systematic thinking"
+        ]
+      },
+      {
+        "title": "Module 2: Equity Instruments & Market Structure",
+        "items": [
+          "Types of stocks (large-cap, mid-cap, small-cap)",
+          "Sector classification & indices",
+          "Order-driven markets",
+          "Impact of liquidity on trading systems"
+        ]
+      },
+      {
+        "title": "Module 3: Price Action & Market Behavior",
+        "items": [
+          "How price moves in real markets",
+          "Trends, ranges, breakouts",
+          "Volatility concepts",
+          "Market noise vs signal"
+        ]
+      },
+      {
+        "title": "Module 4: Technical Analysis for Algo Traders",
+        "items": [
+          "Support & resistance (rule-based view)",
+          "Moving averages & trend logic",
+          "Momentum concepts",
+          "Indicator behavior vs price behavior"
+        ]
+      },
+      {
+        "title": "Module 5: Volume, Volatility & Data Understanding",
+        "items": [
+          "Volume interpretation",
+          "Volatility measurement basics",
+          "Market participation logic",
+          "Data reliability & limitations"
+        ]
+      },
+      {
+        "title": "Module 6: Risk Concepts for Systematic Trading",
+        "items": [
+          "Drawdowns & equity curves",
+          "Risk per trade logic",
+          "Capital allocation basics",
+          "Why most systems fail (conceptual)"
+        ]
+      },
+      {
+        "title": "Module 7: Strategy Thinking (Without Coding)",
+        "items": [
+          "Converting market behavior into rules",
+          "Entry, exit & stop logic (conceptual)",
+          "Time-based vs price-based strategies",
+          "Avoiding curve-fitting mindset"
+        ]
+      },
+      {
+        "title": "Module 8: Live Market Observation (Algo View)",
+        "items": [
+          "Watching live charts like an algo",
+          "Understanding candle behavior",
+          "Identifying repeatable patterns",
+          "Market condition recognition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pro-stock-8w",
+    "slug": "stock-market-course-for-professional-traders",
+    "title": "STOCK MARKET COURSE FOR PROFESSIONAL TRADERS",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "8–10 Weeks",
+    "shortDescription": "A professional-level trading program covering market structure, execution, risk, psychology, validation, and performance review (education-focused; no profit promises).",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.7,
+    "reviewCount": 1950,
+    "likedPercent": 97,
+    "enrolledCount": 44310,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Professional Mindset",
+      "Advanced Market Structure",
+      "Trade Execution",
+      "Risk Management",
+      "Trading Psychology",
+      "Strategy Validation",
+      "Performance Tracking",
+      "Routine & Discipline"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Professional Trading Mindset",
+        "items": [
+          "Difference between amateur & professional traders",
+          "Trading as a business mindset",
+          "Expectancy & probability thinking",
+          "Building discipline & routine"
+        ]
+      },
+      {
+        "title": "Module 2: Advanced Market Structure",
+        "items": [
+          "Market phases (trend, range, transition)",
+          "Institutional activity (conceptual)",
+          "Liquidity zones & volatility behavior",
+          "Timeframe alignment"
+        ]
+      },
+      {
+        "title": "Module 3: Advanced Technical Analysis",
+        "items": [
+          "Price action at professional level",
+          "Market structure breaks & continuations",
+          "High-probability trade zones",
+          "Indicator usage (confirmation, not dependency)"
+        ]
+      },
+      {
+        "title": "Module 4: Trade Execution & Management",
+        "items": [
+          "Precise entry techniques",
+          "Stop-loss placement logic",
+          "Trade management strategies",
+          "Scaling in & scaling out (conceptual)"
+        ]
+      },
+      {
+        "title": "Module 5: Risk & Capital Management (Core Module)",
+        "items": [
+          "Risk per trade & daily risk limits",
+          "Drawdown control",
+          "Position sizing models",
+          "Protecting capital during bad phases",
+          "This module defines professional traders"
+        ]
+      },
+      {
+        "title": "Module 6: Trading Psychology & Behavior",
+        "items": [
+          "Emotional control",
+          "Handling losses & drawdowns",
+          "Overtrading & revenge trading",
+          "Developing patience & consistency"
+        ]
+      },
+      {
+        "title": "Module 7: Strategy Development & Validation",
+        "items": [
+          "Building repeatable trading strategies",
+          "Back-testing concepts (manual / logical)",
+          "Understanding edge & expectancy",
+          "Strategy adaptability to market conditions"
+        ]
+      },
+      {
+        "title": "Module 8: Live Market Trading Sessions",
+        "items": [
+          "Real-time chart reading",
+          "Trade planning before execution",
+          "Post-market trade review",
+          "Learning from wins & losses",
+          "Observation + discussion focused — no profit promises"
+        ]
+      },
+      {
+        "title": "Module 9: Performance Tracking & Review",
+        "items": [
+          "Trade journaling methods",
+          "Performance metrics (win-rate, R:R, drawdown)",
+          "Weekly & monthly review process",
+          "Continuous improvement approach"
+        ]
+      },
+      {
+        "title": "Module 10: Professional Growth Roadmap",
+        "items": [
+          "Full-time vs part-time trading clarity",
+          "Long-term skill development plan",
+          "Avoiding burnout",
+          "Next-level learning paths (algo, derivatives, portfolio)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pro-technical-8w",
+    "slug": "technical-course-for-professional-traders",
+    "title": "TECHNICAL COURSE FOR PROFESSIONAL TRADERS",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "8–10 Weeks",
+    "shortDescription": "A professional technical analysis track focused on market structure, support/resistance, supply-demand, price action, and disciplined trade planning (education-focused).",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.7,
+    "reviewCount": 1760,
+    "likedPercent": 97,
+    "enrolledCount": 39110,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Market Structure",
+      "Support & Resistance",
+      "Supply–Demand",
+      "Candlestick Psychology",
+      "Indicators (Confirmation)",
+      "Entry/Stop/Target Logic",
+      "Adaptability",
+      "Technical Journaling"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Professional Approach to Technical Analysis",
+        "items": [
+          "Why most retail traders fail with indicators",
+          "Price vs indicator dependency",
+          "Context-driven chart reading",
+          "Multi-timeframe thinking"
+        ]
+      },
+      {
+        "title": "Module 2: Market Structure & Price Behavior",
+        "items": [
+          "Trends, ranges & transitions",
+          "Higher highs / lower lows logic",
+          "Breaks & retests",
+          "Structural shifts"
+        ]
+      },
+      {
+        "title": "Module 3: Support, Resistance & Supply–Demand",
+        "items": [
+          "Valid vs weak zones",
+          "Zone creation & mitigation",
+          "Price reaction behavior",
+          "Entry planning around zones"
+        ]
+      },
+      {
+        "title": "Module 4: Advanced Candlestick & Price Action",
+        "items": [
+          "Candlestick psychology (not patterns only)",
+          "Impulsive vs corrective moves",
+          "Rejection & acceptance logic",
+          "Entry confirmation methods"
+        ]
+      },
+      {
+        "title": "Module 5: Indicators (Professional Use Only)",
+        "items": [
+          "Moving averages (structure confirmation)",
+          "RSI & momentum (context-based use)",
+          "Volume & volatility tools",
+          "Avoiding indicator clutter",
+          "Indicators are confirmation tools, not decision-makers"
+        ]
+      },
+      {
+        "title": "Module 6: Trade Entry, Stop & Target Logic",
+        "items": [
+          "Professional entry planning",
+          "Logical stop-loss placement",
+          "Risk-to-reward planning",
+          "Trade invalidation rules"
+        ]
+      },
+      {
+        "title": "Module 7: Market Conditions & Adaptability",
+        "items": [
+          "Trending vs ranging markets",
+          "Low-volatility vs high-volatility phases",
+          "When NOT to trade",
+          "Strategy adaptation rules"
+        ]
+      },
+      {
+        "title": "Module 8: Live Chart Reading Sessions",
+        "items": [
+          "Real-time market structure analysis",
+          "Trade planning on live charts",
+          "Decision-making without execution pressure",
+          "Post-session discussion",
+          "Observation & learning focused"
+        ]
+      },
+      {
+        "title": "Module 9: Trade Review & Technical Journaling",
+        "items": [
+          "Chart-based journaling",
+          "Screenshot-based review",
+          "Pattern recognition over time",
+          "Learning from mistakes"
+        ]
+      },
+      {
+        "title": "Module 10: Professional Technical Roadmap",
+        "items": [
+          "Building a personal technical framework",
+          "Avoiding over-analysis",
+          "Combining technicals with risk & psychology",
+          "Next growth path (derivatives, algo, portfolio)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fundamental-traders-6w",
+    "slug": "fundamental-course-for-traders",
+    "title": "FUNDAMENTAL COURSE FOR TRADERS",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "6–8 Weeks",
+    "shortDescription": "A trader-focused fundamentals program covering macro drivers, data releases, corporate events, sector analysis, sentiment, and aligning fundamentals with technical timing.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 1620,
+    "likedPercent": 96,
+    "enrolledCount": 33650,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Macro Basics",
+      "Economic Data",
+      "Earnings & Corporate Events",
+      "Sector Analysis",
+      "News & Sentiment",
+      "Fundamental Bias",
+      "Technical Alignment",
+      "Event Risk Management"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Fundamentals for Traders – Not Investors",
+        "items": [
+          "Difference between investing fundamentals & trading fundamentals",
+          "Why traders need context, not valuation models",
+          "How institutions react to data",
+          "Common myths about fundamentals"
+        ]
+      },
+      {
+        "title": "Module 2: Macro-Economic Basics (Trader View)",
+        "items": [
+          "Interest rates & monetary policy (conceptual)",
+          "Inflation & growth data",
+          "Central bank actions & expectations",
+          "Why macro drives market bias"
+        ]
+      },
+      {
+        "title": "Module 3: Economic Data & Market Reaction",
+        "items": [
+          "GDP, CPI, IIP, employment data",
+          "Expected vs actual data logic",
+          "Volatility during data releases",
+          "When not to trade"
+        ]
+      },
+      {
+        "title": "Module 4: Corporate Fundamentals for Traders",
+        "items": [
+          "Earnings reports & guidance",
+          "Quarterly results interpretation (trader view)",
+          "Corporate actions & announcements",
+          "How institutions reposition"
+        ]
+      },
+      {
+        "title": "Module 5: Sector & Industry Analysis",
+        "items": [
+          "Sector rotation logic",
+          "Strong vs weak sectors",
+          "Index vs stock behavior",
+          "Sector-based trade bias"
+        ]
+      },
+      {
+        "title": "Module 6: News, Events & Sentiment",
+        "items": [
+          "News classification (noise vs impact)",
+          "Event-driven volatility",
+          "Global cues (US markets, commodities, FX)",
+          "Market sentiment indicators (conceptual)"
+        ]
+      },
+      {
+        "title": "Module 7: Fundamental + Technical Alignment",
+        "items": [
+          "Using fundamentals for directional bias",
+          "Timing trades with technicals",
+          "Avoiding conflict between chart & data",
+          "Trade filtering logic"
+        ]
+      },
+      {
+        "title": "Module 8: Risk Management During Events",
+        "items": [
+          "Event risk vs normal risk",
+          "Position sizing around news",
+          "Gap risk & overnight risk",
+          "Capital protection strategies"
+        ]
+      },
+      {
+        "title": "Module 9: Live Market Case Studies",
+        "items": [
+          "Studying real events & price reactions",
+          "Post-event chart analysis",
+          "Learning from historical scenarios",
+          "Building market awareness"
+        ]
+      },
+      {
+        "title": "Module 10: Trader’s Fundamental Framework",
+        "items": [
+          "Creating a personal fundamental checklist",
+          "Daily & weekly market preparation",
+          "Avoiding overreaction",
+          "Continuous improvement mindset"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "options-6w",
+    "slug": "option-strategies-course",
+    "title": "OPTION STRATEGIES COURSE",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "6–8 Weeks",
+    "shortDescription": "A practical options strategies program covering Greeks, market-condition selection, directional and non-directional setups, volatility thinking, and disciplined risk management.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 2080,
+    "likedPercent": 96,
+    "enrolledCount": 41880,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Options Basics",
+      "Greeks (Practical)",
+      "Directional Spreads",
+      "Non-Directional Strategies",
+      "Implied Volatility",
+      "Risk Management",
+      "Adjustments (Conceptual)",
+      "Options Playbook"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Options Refresher (Trader Perspective)",
+        "items": [
+          "Role of options in trading & hedging",
+          "Option buyers vs option sellers",
+          "Risk-defined vs unlimited-risk trades",
+          "Common myths about option trading"
+        ]
+      },
+      {
+        "title": "Module 2: Option Greeks (Practical Use)",
+        "items": [
+          "Delta, Gamma, Theta, Vega (trader view)",
+          "How Greeks affect strategies",
+          "Greeks interaction with time & volatility",
+          "Avoiding over-analysis"
+        ]
+      },
+      {
+        "title": "Module 3: Market Conditions & Strategy Selection",
+        "items": [
+          "Trending markets",
+          "Range-bound markets",
+          "High-volatility vs low-volatility environments",
+          "Strategy selection logic"
+        ]
+      },
+      {
+        "title": "Module 4: Directional Option Strategies",
+        "items": [
+          "Call & put spreads",
+          "Bullish & bearish strategies",
+          "Risk–reward planning",
+          "When directional strategies fail"
+        ]
+      },
+      {
+        "title": "Module 5: Non-Directional Option Strategies",
+        "items": [
+          "Range-bound strategies",
+          "Neutral market setups",
+          "Probability-based thinking",
+          "Managing time decay"
+        ]
+      },
+      {
+        "title": "Module 6: Volatility-Based Strategies",
+        "items": [
+          "Understanding implied volatility",
+          "Volatility expansion vs contraction",
+          "Strategy selection based on IV",
+          "Event-based volatility behavior"
+        ]
+      },
+      {
+        "title": "Module 7: Risk Management in Option Strategies",
+        "items": [
+          "Defined-risk setups",
+          "Position sizing for options",
+          "Drawdown control",
+          "Avoiding overtrading",
+          "This module separates professionals from gamblers"
+        ]
+      },
+      {
+        "title": "Module 8: Strategy Execution & Adjustment",
+        "items": [
+          "Entry timing logic",
+          "Adjustment rules (conceptual)",
+          "Exit planning",
+          "When to book loss vs adjust"
+        ]
+      },
+      {
+        "title": "Module 9: Live Market Strategy Analysis",
+        "items": [
+          "Strategy selection on live charts",
+          "Pre-market planning",
+          "Post-market review",
+          "Learning from outcomes",
+          "Observation & analysis focused — no profit promises"
+        ]
+      },
+      {
+        "title": "Module 10: Building a Personal Options Playbook",
+        "items": [
+          "Selecting strategies that suit your style",
+          "Market-condition checklist",
+          "Weekly planning framework",
+          "Long-term skill development plan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "capital-6w",
+    "slug": "capital-market-module",
+    "title": "CAPITAL MARKET MODULE",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "6–8 Weeks",
+    "shortDescription": "A structured capital markets foundation covering exchanges, participants, instruments, trading mechanism, settlement, corporate actions, and SEBI/NISM-oriented compliance awareness.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 1240,
+    "likedPercent": 96,
+    "enrolledCount": 28750,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Capital Markets",
+      "NSE/BSE Basics",
+      "Market Participants",
+      "Financial Instruments",
+      "Trading Mechanism",
+      "Clearing & Settlement",
+      "Corporate Actions",
+      "Regulatory Awareness (NISM-Oriented)"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Introduction to Capital Markets",
+        "items": [
+          "Meaning & role of capital markets",
+          "Financial market overview (money vs capital market)",
+          "Importance of capital markets in the economy",
+          "Primary vs secondary market"
+        ]
+      },
+      {
+        "title": "Module 2: Indian Stock Exchanges – NSE & BSE",
+        "items": [
+          "History & role of NSE and BSE",
+          "Market segments (equity, derivatives, debt)",
+          "Trading sessions & market timings",
+          "Indices overview (NIFTY, SENSEX – conceptual)"
+        ]
+      },
+      {
+        "title": "Module 3: Market Participants",
+        "items": [
+          "Investors, traders, brokers, dealers",
+          "Depositories & depository participants",
+          "Custodians & clearing members",
+          "Role of institutions (overview)"
+        ]
+      },
+      {
+        "title": "Module 4: Financial Instruments",
+        "items": [
+          "Equity shares",
+          "Preference shares",
+          "Bonds & debentures",
+          "Mutual funds (overview)",
+          "ETFs & other instruments (intro)"
+        ]
+      },
+      {
+        "title": "Module 5: Trading Mechanism",
+        "items": [
+          "Order types (market, limit, stop-loss)",
+          "Order matching system",
+          "Market depth & price discovery",
+          "Circuit limits & volatility control"
+        ]
+      },
+      {
+        "title": "Module 6: Clearing, Settlement & Depository System",
+        "items": [
+          "Clearing corporations (overview)",
+          "Settlement cycle (T+1 / T+2 – concept level)",
+          "Role of NSDL & CDSL",
+          "Demat & remat process"
+        ]
+      },
+      {
+        "title": "Module 7: Corporate Actions",
+        "items": [
+          "Dividends",
+          "Bonus & stock split",
+          "Rights issues",
+          "Impact of corporate actions on price"
+        ]
+      },
+      {
+        "title": "Module 8: Regulatory Framework (NISM Oriented)",
+        "items": [
+          "Role of market regulators (overview)",
+          "Investor protection framework",
+          "Market ethics & compliance",
+          "Do’s & don’ts for market participants",
+          "This module keeps the course SEBI-safe & professional"
+        ]
+      },
+      {
+        "title": "Module 9: Introduction to NISM Certifications",
+        "items": [
+          "What is NISM",
+          "Types of NISM modules (overview)",
+          "Who should take which certification",
+          "How this course helps in NISM preparation"
+        ]
+      },
+      {
+        "title": "Module 10: Career Orientation & Next Steps",
+        "items": [
+          "Career paths in capital markets",
+          "Entry-level roles (overview)",
+          "Skill roadmap after this module",
+          "Transition to trading, investing, or advanced courses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "derivatives-5w",
+    "slug": "derivative-market-module",
+    "title": "DERIVATIVE MARKET MODULE",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "5–7 Weeks",
+    "shortDescription": "A trader-friendly derivatives foundation covering futures, options, payoff logic, margins, risk awareness, clearing/settlement, and NISM-aligned regulatory overview.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 1380,
+    "likedPercent": 96,
+    "enrolledCount": 30120,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Derivatives Basics",
+      "Futures Concepts",
+      "Options Foundations",
+      "Payoff & Risk",
+      "Margins & Leverage",
+      "Pricing Drivers (Intro)",
+      "Regulatory Awareness",
+      "Live Market Observation"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Introduction to Derivative Markets",
+        "items": [
+          "What are derivatives & why they exist",
+          "Difference between cash & derivative markets",
+          "Hedging vs speculation vs arbitrage",
+          "Global & Indian derivatives overview"
+        ]
+      },
+      {
+        "title": "Module 2: Futures Contracts – Core Concepts",
+        "items": [
+          "Futures contract structure",
+          "Lot size, expiry, margin system",
+          "Daily mark-to-market (MTM)",
+          "Futures pricing basics (conceptual)"
+        ]
+      },
+      {
+        "title": "Module 3: Options Contracts – Foundations",
+        "items": [
+          "Call & put options",
+          "Buyer vs seller perspective",
+          "Option premium & intrinsic value",
+          "Option contract specifications"
+        ]
+      },
+      {
+        "title": "Module 4: Payoff Structures & Risk Understanding",
+        "items": [
+          "Futures payoff logic",
+          "Call & put payoff diagrams",
+          "Limited vs unlimited risk",
+          "Why derivatives are high-risk instruments",
+          "This module builds risk awareness"
+        ]
+      },
+      {
+        "title": "Module 5: Margins, Leverage & Risk Management",
+        "items": [
+          "Initial & exposure margins",
+          "Leverage impact on capital",
+          "Margin calls & penalties",
+          "Capital protection mindset"
+        ]
+      },
+      {
+        "title": "Module 6: Options Pricing Basics (Intro Level)",
+        "items": [
+          "Factors affecting option price",
+          "Time value & volatility (conceptual)",
+          "Why option prices change even without price movement",
+          "No complex math — trader-friendly explanation"
+        ]
+      },
+      {
+        "title": "Module 7: Introduction to Derivative Strategies (Conceptual)",
+        "items": [
+          "Hedging strategies (basic)",
+          "Speculative strategy overview",
+          "When NOT to use derivatives",
+          "Strategy vs gambling mindset",
+          "Execution-level strategies covered in advanced courses"
+        ]
+      },
+      {
+        "title": "Module 8: Clearing, Settlement & Regulations",
+        "items": [
+          "Clearing corporations (overview)",
+          "Settlement process for derivatives",
+          "Contract expiry & settlement types",
+          "Regulatory & compliance framework (NISM aligned)"
+        ]
+      },
+      {
+        "title": "Module 9: Live Market Observation (Learning Mode)",
+        "items": [
+          "Understanding futures & options chain",
+          "Observing open interest & volume",
+          "Expiry behavior (conceptual)",
+          "Market reaction analysis",
+          "Observation only — no trade calls"
+        ]
+      },
+      {
+        "title": "Module 10: Career Path & Next Learning Steps",
+        "items": [
+          "Derivatives-related career roles",
+          "Roadmap to Options Strategies / Professional Trading",
+          "NISM Derivatives certification guidance",
+          "Skill progression framework"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mutualfund-4w",
+    "slug": "mutual-fund-module",
+    "title": "MUTUAL FUND MODULE",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "4–6 Weeks",
+    "shortDescription": "A practical mutual fund foundation covering structure, scheme types, NAV/expenses, SIP discipline, risk-return, taxation (conceptual), and AMFI/NISM-oriented compliance awareness.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 980,
+    "likedPercent": 96,
+    "enrolledCount": 21940,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Mutual Fund Basics",
+      "Scheme Types",
+      "NAV & Expense Ratio",
+      "SIP Discipline",
+      "Risk vs Return",
+      "Performance Evaluation",
+      "Taxation (Conceptual)",
+      "AMFI/NISM Awareness"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Introduction to Mutual Funds",
+        "items": [
+          "Meaning & concept of mutual funds",
+          "How mutual funds pool money",
+          "Role of mutual funds in financial planning",
+          "Difference between direct & regular plans"
+        ]
+      },
+      {
+        "title": "Module 2: Mutual Fund Structure & Participants",
+        "items": [
+          "Asset Management Companies (AMCs)",
+          "Trustees & sponsors",
+          "Fund managers & distributors",
+          "Registrar & transfer agents (RTAs)"
+        ]
+      },
+      {
+        "title": "Module 3: Types of Mutual Fund Schemes",
+        "items": [
+          "Equity mutual funds",
+          "Debt mutual funds",
+          "Hybrid funds",
+          "Index funds & ETFs (overview)",
+          "Liquid & overnight funds"
+        ]
+      },
+      {
+        "title": "Module 4: Risk & Return in Mutual Funds",
+        "items": [
+          "Risk levels of different schemes",
+          "Market risk vs credit risk",
+          "Volatility & time horizon",
+          "Matching funds with investor profile"
+        ]
+      },
+      {
+        "title": "Module 5: NAV, Expenses & Performance Evaluation",
+        "items": [
+          "Net Asset Value (NAV) concept",
+          "Expense ratio & its impact",
+          "Past performance analysis (right way)",
+          "Benchmarks & relative comparison"
+        ]
+      },
+      {
+        "title": "Module 6: Investment Modes & Systematic Investing",
+        "items": [
+          "Lump sum vs SIP",
+          "STP & SWP (conceptual)",
+          "Power of compounding",
+          "Long-term investing discipline"
+        ]
+      },
+      {
+        "title": "Module 7: Taxation of Mutual Funds (Conceptual)",
+        "items": [
+          "Equity vs debt fund taxation",
+          "Long-term & short-term capital gains",
+          "Dividend taxation overview",
+          "Tax efficiency basics",
+          "Conceptual understanding only — no tax advice"
+        ]
+      },
+      {
+        "title": "Module 8: Investor Behavior & Common Mistakes",
+        "items": [
+          "Emotional investing mistakes",
+          "Chasing returns",
+          "Timing the market vs staying invested",
+          "Importance of asset allocation"
+        ]
+      },
+      {
+        "title": "Module 9: Regulatory Framework (AMFI / NISM Oriented)",
+        "items": [
+          "Investor protection framework",
+          "Ethical selling practices",
+          "Do’s & Don’ts for advisors & distributors",
+          "Compliance awareness"
+        ]
+      },
+      {
+        "title": "Module 10: Career Orientation & Next Steps",
+        "items": [
+          "Careers in mutual fund industry",
+          "Distributor, advisor, analyst (overview)",
+          "AMFI / NISM certification guidance",
+          "Roadmap to advanced finance courses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "currency-4w",
+    "slug": "currency-market-module",
+    "title": "CURRENCY MARKET MODULE",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "4–6 Weeks",
+    "shortDescription": "A currency markets foundation covering exchange-rate drivers, global factors, Indian currency derivatives, hedging concepts, volatility thinking, and compliance awareness.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 910,
+    "likedPercent": 96,
+    "enrolledCount": 20480,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Currency Markets",
+      "Exchange Rate Drivers",
+      "Macro Factors",
+      "Currency Derivatives (India)",
+      "Hedging Concepts",
+      "Volatility Basics",
+      "Regulatory Awareness",
+      "Live Observation"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Introduction to Currency Markets",
+        "items": [
+          "What is the currency market",
+          "Role of currencies in global trade",
+          "Spot market vs derivative market",
+          "Major global currency pairs (overview)"
+        ]
+      },
+      {
+        "title": "Module 2: Exchange Rate Mechanism",
+        "items": [
+          "How exchange rates are determined",
+          "Demand–supply dynamics",
+          "Appreciation vs depreciation",
+          "Role of interest rates & capital flows"
+        ]
+      },
+      {
+        "title": "Module 3: Global Factors Affecting Currencies",
+        "items": [
+          "Economic indicators & data releases",
+          "Central bank policies (conceptual)",
+          "Inflation, growth & interest rate differentials",
+          "Global risk sentiment & safe-haven flows"
+        ]
+      },
+      {
+        "title": "Module 4: Currency Derivatives in India",
+        "items": [
+          "Currency futures & options overview",
+          "Contract specifications",
+          "Lot size, expiry & settlement",
+          "Trading hours & margin framework"
+        ]
+      },
+      {
+        "title": "Module 5: Hedging & Risk Management",
+        "items": [
+          "Why businesses hedge currency risk",
+          "Basic hedging concepts",
+          "Risk vs speculation",
+          "Currency exposure management mindset",
+          "Focus on understanding risk, not aggressive trading"
+        ]
+      },
+      {
+        "title": "Module 6: Currency Pricing & Volatility (Conceptual)",
+        "items": [
+          "Factors affecting currency prices",
+          "Volatility in currency markets",
+          "Event-based movements",
+          "Understanding price stability vs shocks"
+        ]
+      },
+      {
+        "title": "Module 7: Introduction to Currency Trading (Conceptual)",
+        "items": [
+          "Currency trading styles (overview)",
+          "Difference between FX spot & currency derivatives",
+          "Indian exchange-traded currency vs global forex",
+          "Common mistakes by beginners"
+        ]
+      },
+      {
+        "title": "Module 8: Clearing, Settlement & Regulation",
+        "items": [
+          "Clearing & settlement process",
+          "Regulatory framework (overview)",
+          "Investor protection & compliance",
+          "Ethical trading practices"
+        ]
+      },
+      {
+        "title": "Module 9: Live Market Observation",
+        "items": [
+          "Observing live currency prices",
+          "Understanding spreads & movement behavior",
+          "Event reaction analysis",
+          "Case-based discussion",
+          "Observation & learning only — no trade calls"
+        ]
+      },
+      {
+        "title": "Module 10: Career Orientation & Next Steps",
+        "items": [
+          "Career paths in currency markets",
+          "Corporate treasury & risk roles (overview)",
+          "Roadmap to advanced currency & forex trading courses",
+          "NISM Currency Derivatives certification guidance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commodity-4w",
+    "slug": "commodity-market-module",
+    "title": "COMMODITY MARKET MODULE",
+    "category": "Job Oriented Course",
+    "level": "Short-Term Certification",
+    "duration": "4–6 Weeks",
+    "shortDescription": "A commodity markets foundation covering exchanges, contract basics, price drivers, hedging, derivatives overview, risk mindset, and regulatory awareness.",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 940,
+    "likedPercent": 96,
+    "enrolledCount": 21630,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Commodity Markets",
+      "Price Drivers",
+      "Futures & Options (Commodities)",
+      "Hedging Concepts",
+      "Risk Management",
+      "Fundamental Drivers",
+      "Technical View (Conceptual)",
+      "Regulatory Awareness"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Introduction to Commodity Markets",
+        "items": [
+          "What are commodities",
+          "Types of commodities (agri, metals, energy)",
+          "Role of commodity markets in the economy",
+          "Physical vs derivative commodity markets"
+        ]
+      },
+      {
+        "title": "Module 2: Commodity Exchanges & Market Structure",
+        "items": [
+          "Overview of Indian commodity exchanges (conceptual)",
+          "Contract specifications & trading hours",
+          "Market participants",
+          "Role of clearing corporations"
+        ]
+      },
+      {
+        "title": "Module 3: Commodity Price Drivers",
+        "items": [
+          "Supply & demand dynamics",
+          "Seasonality in commodities",
+          "Inventory levels & stock data",
+          "Global factors affecting commodity prices"
+        ]
+      },
+      {
+        "title": "Module 4: Commodity Derivatives – Futures & Options",
+        "items": [
+          "Commodity futures contracts",
+          "Commodity options overview",
+          "Margin system & leverage",
+          "Contract expiry & settlement"
+        ]
+      },
+      {
+        "title": "Module 5: Hedging & Risk Management",
+        "items": [
+          "Hedging concepts for producers & consumers",
+          "Price risk management",
+          "Difference between hedging & speculation",
+          "Risk control mindset",
+          "Focus on understanding risk before trading"
+        ]
+      },
+      {
+        "title": "Module 6: Fundamental Analysis in Commodities",
+        "items": [
+          "Macro-economic impact on commodities",
+          "Currency & interest rate impact",
+          "Weather & geopolitical influence",
+          "Data interpretation basics"
+        ]
+      },
+      {
+        "title": "Module 7: Technical Analysis (Conceptual)",
+        "items": [
+          "Price trends in commodities",
+          "Support & resistance",
+          "Volatility behavior",
+          "Difference between equity & commodity charts"
+        ]
+      },
+      {
+        "title": "Module 8: Clearing, Settlement & Regulation",
+        "items": [
+          "Clearing & settlement process",
+          "Regulatory framework (overview)",
+          "Market integrity & compliance",
+          "Ethical trading practices"
+        ]
+      },
+      {
+        "title": "Module 9: Live Market Observation",
+        "items": [
+          "Observing commodity prices",
+          "Understanding volume & open interest",
+          "Event-based price movement analysis",
+          "Case-based discussion",
+          "Observation & learning only — no trade calls"
+        ]
+      },
+      {
+        "title": "Module 10: Career Orientation & Next Steps",
+        "items": [
+          "Careers in commodity markets",
+          "Commodity analyst & risk roles",
+          "Roadmap to advanced commodity trading courses",
+          "NISM Commodity Derivatives certification guidance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dra-12w",
+    "slug": "diploma-in-research-analyst",
+    "title": "Diploma in Research Analyst",
+    "category": "Job Oriented Course",
+    "level": "Diploma",
+    "duration": "12–16 Weeks",
+    "shortDescription": "A research-analyst focused diploma covering technical + fundamental analysis, research process, report building, ethics, and portfolio recommendation logic.",
+    "image": "/diploma in research analysis.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.7,
+    "reviewCount": 1320,
+    "likedPercent": 97,
+    "enrolledCount": 25840,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Equity Research",
+      "Financial Statement Analysis",
+      "Business & Industry Research",
+      "Valuation (Conceptual)",
+      "Technical Confirmation",
+      "Research Reporting",
+      "Ethics & Compliance",
+      "Recommendation Logic"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Introduction to Research Analysis",
+        "items": [
+          "Role of a research analyst",
+          "Buy-side vs sell-side research",
+          "Analyst vs trader vs advisor mindset",
+          "Research ethics & responsibility"
+        ]
+      },
+      {
+        "title": "Module 2: Capital Market & Economic Overview",
+        "items": [
+          "Market structure recap",
+          "Economic indicators & cycles",
+          "Macro vs micro analysis",
+          "Market sentiment & behavior"
+        ]
+      },
+      {
+        "title": "Module 3: Financial Statement Analysis",
+        "items": [
+          "Income statement, balance sheet & cash flow",
+          "Revenue quality & profitability analysis",
+          "Cash flow strength & red flags",
+          "Financial ratios (analyst view)"
+        ]
+      },
+      {
+        "title": "Module 4: Business & Industry Research",
+        "items": [
+          "Business model analysis",
+          "Competitive advantage & moat concepts",
+          "Industry structure & growth drivers",
+          "Sector-level research"
+        ]
+      },
+      {
+        "title": "Module 5: Equity Valuation Frameworks (Conceptual)",
+        "items": [
+          "Purpose of valuation",
+          "Relative valuation (comparables)",
+          "Absolute valuation overview",
+          "Valuation limitations & judgment",
+          "Logic-focused, not heavy math"
+        ]
+      },
+      {
+        "title": "Module 6: Technical Analysis for Research Analysts",
+        "items": [
+          "Market trend identification",
+          "Support & resistance",
+          "Volume & price behavior",
+          "Using technicals as confirmation"
+        ]
+      },
+      {
+        "title": "Module 7: Research Report Building",
+        "items": [
+          "Structuring a research report",
+          "Investment thesis development",
+          "Risk factors & assumptions",
+          "Monitoring & review framework"
+        ]
+      },
+      {
+        "title": "Module 8: Portfolio & Recommendation Logic",
+        "items": [
+          "From research to portfolio decision",
+          "Risk-adjusted recommendations",
+          "Position sizing concepts",
+          "Avoiding bias in recommendations"
+        ]
+      },
+      {
+        "title": "Module 9: Case Studies & Live Research",
+        "items": [
+          "Company case studies",
+          "Market cycle-based analysis",
+          "Earnings & event impact",
+          "Decision review sessions"
+        ]
+      },
+      {
+        "title": "Module 10: Ethics, Compliance & Limitations",
+        "items": [
+          "Responsible research practices",
+          "Conflict of interest awareness",
+          "Disclosure mindset",
+          "Analyst accountability"
+        ]
+      },
+      {
+        "title": "Module 11: Research Tools & Data Interpretation",
+        "items": [
+          "Understanding financial data sources",
+          "Using reports & public disclosures",
+          "Data reliability & interpretation",
+          "Avoiding data misuse"
+        ]
+      },
+      {
+        "title": "Module 12: Analyst Communication & Presentation",
+        "items": [
+          "Presenting research findings",
+          "Writing clear research notes",
+          "Explaining assumptions & risks",
+          "Professional communication skills"
+        ]
+      },
+      {
+        "title": "Module 13: Career Orientation & Professional Growth",
+        "items": [
+          "Research analyst career paths",
+          "Entry-level roles & expectations",
+          "Skill roadmap & certifications",
+          "Long-term analyst development"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dra-fast-12w",
+    "slug": "diploma-in-research-analyst-fast-track",
+    "title": "Diploma in Research Analyst (Fast Track)",
+    "category": "Job Oriented Course",
+    "level": "Diploma",
+    "duration": "12–16 Weeks",
+    "shortDescription": "A fast-track research analyst diploma covering advanced technical analysis, fundamental analysis, and research analyst skills with market modules overview.",
+    "image": "/diploma in research analysis.PNG",
+    "popular": false,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 640,
+    "likedPercent": 96,
+    "enrolledCount": 11840,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Capital Markets Overview",
+      "Derivatives Overview",
+      "Commodity Overview",
+      "Currency Overview",
+      "Technical Analysis",
+      "Fundamental Analysis",
+      "Research Framework",
+      "Report Writing"
+    ],
+    "modules": [
+      {
+        "title": "Program Overview: Market Modules",
+        "items": [
+          "Introduction to Capital Market",
+          "Derivative market overview",
+          "Commodity market overview",
+          "Currency market overview"
+        ]
+      },
+      {
+        "title": "Module 1: Advance Technical Analysis and its Applications",
+        "items": [
+          "Understanding of Technical Analysis",
+          "Fundamental Vs Technical Analysis",
+          "Type of Charts",
+          "Candlestick Chart Patterns (Theory + Practical)",
+          "Major Indicators used for taking decision in buying and selling stocks",
+          "Support and Resistance",
+          "Moving Average and Cross over",
+          "Trend Line and Triangles",
+          "Demand and Supply zone",
+          "Fibonacci and Bollinger Bands",
+          "DOW theory and ELLIOT wave theory",
+          "Different Tools used for trading strategy",
+          "Market Psychology",
+          "Different trading strategies based on Technical Analysis",
+          "Practical classes on Technical Analysis Software"
+        ]
+      },
+      {
+        "title": "Module 2: Fundamental Analysis and its Application",
+        "items": [
+          "An Introduction to fundamental analysis",
+          "Economic Analysis",
+          "Industry Analysis",
+          "Company Analysis – Non-Fundamental Analysis",
+          "Company Analysis – Fundamental Analysis",
+          "Ratio Analysis",
+          "Stock valuation methods",
+          "Valuation of Firms",
+          "Understanding the concept of the time value of money",
+          "How to select stocks for consistent returns",
+          "Financial statement analysis"
+        ]
+      },
+      {
+        "title": "Module 3: Research Analyst",
+        "items": [
+          "Introduction to Research Analyst",
+          "Basic of Indian securities markets",
+          "Top-down and bottom-up approach",
+          "Equity and Debt Market",
+          "Micro and macroeconomic analysis",
+          "Industry analysis",
+          "Qualitative and Quantitative aspects of company analysis",
+          "Corporate Actions",
+          "Stock Valuation",
+          "Risk and Return Methodologies",
+          "Legal Framework",
+          "Report Writing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ia-xa-10w",
+    "slug": "investment-advisory-xa-series",
+    "title": "INVESTMENT ADVISORY MODULE – XA SERIES",
+    "category": "Job Oriented Course",
+    "level": "Professional Program",
+    "duration": "10–12 Weeks",
+    "shortDescription": "A professional advisory-focused program covering client profiling, asset allocation, portfolio construction, rebalancing, risk handling, case studies, and ethics (education-focused; no licensing claims).",
+    "image": "/certificate in stock marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 880,
+    "likedPercent": 96,
+    "enrolledCount": 17210,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Client Profiling",
+      "Risk Assessment",
+      "Asset Allocation",
+      "Portfolio Construction",
+      "Rebalancing Discipline",
+      "Capital Preservation",
+      "Advisory Communication",
+      "Ethics & Compliance"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Investment Advisory – Professional Perspective",
+        "items": [
+          "Difference between investing & advising",
+          "Advisory vs distribution mindset",
+          "Fiduciary responsibility (conceptual)",
+          "Long-term advisory ethics"
+        ]
+      },
+      {
+        "title": "Module 2: Client Profiling & Risk Assessment",
+        "items": [
+          "Risk profiling frameworks",
+          "Financial goals & time horizons",
+          "Behavioral biases in investors",
+          "Suitability vs return chasing"
+        ]
+      },
+      {
+        "title": "Module 3: Asset Allocation Strategy",
+        "items": [
+          "Strategic vs tactical asset allocation",
+          "Equity, debt, alternatives (conceptual)",
+          "Diversification logic",
+          "Portfolio stability vs growth balance"
+        ]
+      },
+      {
+        "title": "Module 4: Equity Allocation for Advisory Portfolios",
+        "items": [
+          "Growth vs value exposure",
+          "Market cycles & equity allocation",
+          "Index vs active strategies",
+          "Long-term equity risk management"
+        ]
+      },
+      {
+        "title": "Module 5: Fixed Income & Debt Allocation",
+        "items": [
+          "Role of debt in portfolios",
+          "Interest rate sensitivity (conceptual)",
+          "Credit risk awareness",
+          "Debt allocation across cycles"
+        ]
+      },
+      {
+        "title": "Module 6: Mutual Funds & Investment Vehicles",
+        "items": [
+          "Scheme selection logic (advisor view)",
+          "Portfolio layering using funds",
+          "Rebalancing discipline",
+          "Cost & efficiency considerations"
+        ]
+      },
+      {
+        "title": "Module 7: Portfolio Construction & Rebalancing",
+        "items": [
+          "Model portfolio building",
+          "Rebalancing triggers",
+          "Handling market drawdowns",
+          "Managing portfolio drift"
+        ]
+      },
+      {
+        "title": "Module 8: Risk Management & Capital Preservation",
+        "items": [
+          "Downside risk control",
+          "Portfolio drawdown handling",
+          "Stress testing (conceptual)",
+          "Crisis-period advisory thinking"
+        ]
+      },
+      {
+        "title": "Module 9: Investment Advisory Case Studies",
+        "items": [
+          "Real-world advisory scenarios",
+          "Bull & bear market responses",
+          "Investor behavior during volatility",
+          "Decision review & learning"
+        ]
+      },
+      {
+        "title": "Module 10: Advisory Communication & Decision Framework",
+        "items": [
+          "Explaining risk to investors",
+          "Managing expectations",
+          "Long-term advisory trust building",
+          "Documentation & discipline mindset"
+        ]
+      },
+      {
+        "title": "Module 11: Compliance, Ethics & Limitations",
+        "items": [
+          "Ethical advisory practices",
+          "Conflict of interest awareness",
+          "Do’s & don’ts in advisory communication",
+          "Responsible guidance mindset",
+          "Education-focused | No licensing claims"
+        ]
+      },
+      {
+        "title": "Module 12: XA Series – Advisory Roadmap",
+        "items": [
+          "Continuous learning roadmap",
+          "Advanced advisory skill development",
+          "Portfolio review frameworks",
+          "Long-term professional growth"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iapm-10w",
+    "slug": "investment-analyst-portfolio-management-program",
+    "title": "INVESTMENT ANALYST & PORTFOLIO MANAGEMENT PROGRAM",
+    "category": "Job Oriented Course",
+    "level": "Professional Program",
+    "duration": "10–12 Weeks",
+    "shortDescription": "A program for aspiring investment analysts covering financial statement analysis, research framework, valuation logic (conceptual), portfolio construction basics, performance review, and professional reporting.",
+    "image": "/diploma in research analysis.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 740,
+    "likedPercent": 96,
+    "enrolledCount": 14990,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Analyst Mindset",
+      "Financial Statements",
+      "Industry Research",
+      "Valuation Logic",
+      "Equity Research Process",
+      "Portfolio Basics",
+      "Performance Review",
+      "Professional Reporting"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Role of an Investment Analyst",
+        "items": [
+          "What investment analysts do",
+          "Buy-side vs sell-side overview",
+          "Analyst vs trader vs advisor mindset",
+          "Ethical responsibilities (conceptual)"
+        ]
+      },
+      {
+        "title": "Module 2: Financial Statement Analysis",
+        "items": [
+          "Income statement, balance sheet & cash flow (analyst view)",
+          "Revenue, profitability & cash flow analysis",
+          "Understanding financial quality",
+          "Red flags in financials"
+        ]
+      },
+      {
+        "title": "Module 3: Business & Industry Analysis",
+        "items": [
+          "Business model evaluation",
+          "Competitive advantage concepts",
+          "Industry structure & cycles",
+          "Sector-level analysis"
+        ]
+      },
+      {
+        "title": "Module 4: Valuation Fundamentals (Conceptual)",
+        "items": [
+          "Purpose of valuation",
+          "Relative vs absolute valuation (overview)",
+          "Valuation limitations",
+          "Analyst judgment vs numbers",
+          "Focus on logic, not complex math"
+        ]
+      },
+      {
+        "title": "Module 5: Equity Research Framework",
+        "items": [
+          "Research process & documentation",
+          "Qualitative vs quantitative analysis",
+          "Building an investment thesis",
+          "Monitoring & review mindset"
+        ]
+      },
+      {
+        "title": "Module 6: Portfolio Management Basics",
+        "items": [
+          "Portfolio construction logic",
+          "Diversification principles",
+          "Risk-return trade-off",
+          "Portfolio rebalancing basics"
+        ]
+      },
+      {
+        "title": "Module 7: Asset Allocation & Risk Management",
+        "items": [
+          "Strategic asset allocation",
+          "Portfolio risk measurement (conceptual)",
+          "Drawdown & volatility awareness",
+          "Capital preservation mindset"
+        ]
+      },
+      {
+        "title": "Module 8: Performance Measurement & Review",
+        "items": [
+          "Portfolio performance evaluation",
+          "Benchmarking concepts",
+          "Attribution analysis (intro level)",
+          "Learning from outcomes"
+        ]
+      },
+      {
+        "title": "Module 9: Case Studies & Practical Analysis",
+        "items": [
+          "Equity & portfolio case studies",
+          "Market cycle-based decisions",
+          "Portfolio adjustment scenarios",
+          "Analyst decision review"
+        ]
+      },
+      {
+        "title": "Module 10: Analyst Communication & Reporting",
+        "items": [
+          "Presenting investment ideas",
+          "Writing basic research notes",
+          "Explaining portfolio decisions",
+          "Professional communication standards"
+        ]
+      },
+      {
+        "title": "Module 11: Ethics, Compliance & Limitations",
+        "items": [
+          "Ethical decision-making",
+          "Conflict of interest awareness",
+          "Responsible analysis practices",
+          "Professional integrity mindset"
+        ]
+      },
+      {
+        "title": "Module 12: Career Roadmap & Next Steps",
+        "items": [
+          "Analyst & PM career paths",
+          "Skill roadmap (advanced finance, certifications)",
+          "Continuous learning approach",
+          "Transition to higher roles"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adv-diploma-stock-12m",
+    "slug": "advance-diploma-in-stock-market",
+    "title": "ADVANCE DIPLOMA IN STOCK MARKET",
+    "category": "Job Oriented Course",
+    "level": "Advance Diploma",
+    "duration": "12 Months",
+    "shortDescription": "A 12-month advanced diploma structured in phases: market foundations, equity/technical mastery, derivatives/options, fundamentals/macro, systematic tracks (algo/portfolio), and professional career prep.",
+    "image": "/diploma in financial marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.7,
+    "reviewCount": 2210,
+    "likedPercent": 97,
+    "enrolledCount": 52340,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Capital Market Foundations",
+      "Technical Analysis",
+      "Derivatives & Options",
+      "Fundamental & Macro",
+      "Algo Trading Basics",
+      "Portfolio Construction",
+      "Risk Management",
+      "Career Preparation"
+    ],
+    "modules": [
+      {
+        "title": "Phase 1: Market Foundations (Months 1–2)",
+        "items": [
+          "Capital Market Fundamentals (NSE, BSE, SEBI ecosystem)",
+          "Financial instruments overview",
+          "Market participants & structure",
+          "Trading & settlement basics",
+          "Market terminology mastery",
+          "Outcome: Strong base for any market role"
+        ]
+      },
+      {
+        "title": "Phase 2: Equity & Technical Mastery (Months 3–4)",
+        "items": [
+          "Price action & market structure",
+          "Technical analysis (professional level)",
+          "Support, resistance & trend logic",
+          "Risk–reward planning",
+          "Live chart reading sessions",
+          "Outcome: Confident chart reading & execution logic"
+        ]
+      },
+      {
+        "title": "Phase 3: Derivatives & Option Strategies (Months 5–6)",
+        "items": [
+          "Futures & options fundamentals",
+          "Option Greeks (practical use)",
+          "Strategy selection based on market conditions",
+          "Risk-defined option strategies",
+          "Expiry behavior & volatility understanding",
+          "Outcome: Controlled, structured derivatives understanding"
+        ]
+      },
+      {
+        "title": "Phase 4: Fundamental & Macro Analysis (Months 7–8)",
+        "items": [
+          "Fundamental analysis for traders & investors",
+          "Sector & industry analysis",
+          "Economic indicators & macro influence",
+          "Corporate events & earnings analysis",
+          "Fundamental + technical alignment",
+          "Outcome: Context-based trading & investing clarity"
+        ]
+      },
+      {
+        "title": "Phase 5: Advanced Tracks (Months 9–10)",
+        "items": [
+          "Algo Trading fundamentals",
+          "System-based trading mindset",
+          "Portfolio construction basics",
+          "Mutual fund & long-term investing logic",
+          "Risk management across portfolios",
+          "Outcome: Systematic & diversified market thinking"
+        ]
+      },
+      {
+        "title": "Phase 6: Professional Practice & Career Prep (Months 11–12)",
+        "items": [
+          "Research analyst skills",
+          "Trade & investment journaling",
+          "Performance evaluation",
+          "Market ethics & discipline",
+          "Career orientation (Trader / Analyst / Advisor)",
+          "Outcome: Market-ready professional mindset"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dsm-pro-6m",
+    "slug": "diploma-in-stock-market-professional",
+    "title": "DIPLOMA IN STOCK MARKET PROFESSIONAL",
+    "category": "Job Oriented Course",
+    "level": "Diploma",
+    "duration": "6 Months",
+    "shortDescription": "A 6-month structured diploma covering capital market foundations, technical analysis, derivatives basics, fundamental context, professional practice, and career orientation.",
+    "image": "/diploma in financial marketing.PNG",
+    "popular": true,
+    "instructor": "NIFASE Faculty",
+    "rating": 4.6,
+    "reviewCount": 1840,
+    "likedPercent": 96,
+    "enrolledCount": 40210,
+    "schedule": "Flexible schedule",
+    "startDateLabel": "Starts soon",
+    "skills": [
+      "Capital Market Basics",
+      "Technical Analysis",
+      "Derivatives Awareness",
+      "Fundamental Context",
+      "Strategy Thinking",
+      "Trading Psychology",
+      "Risk & Capital Management",
+      "Career Orientation"
+    ],
+    "modules": [
+      {
+        "title": "Month 1: Capital Market Foundation",
+        "items": [
+          "Capital market basics (NSE, BSE ecosystem)",
+          "Market participants & instruments",
+          "Trading mechanism & settlement",
+          "Market terminology & structure",
+          "Outcome: Strong base for all market segments"
+        ]
+      },
+      {
+        "title": "Month 2: Equity & Technical Analysis",
+        "items": [
+          "Price action basics",
+          "Support, resistance & trends",
+          "Candlestick interpretation",
+          "Risk–reward planning",
+          "Live chart observation",
+          "Outcome: Chart reading & disciplined trade planning"
+        ]
+      },
+      {
+        "title": "Month 3: Derivatives Introduction",
+        "items": [
+          "Futures & options fundamentals",
+          "Payoff understanding",
+          "Margin & leverage awareness",
+          "Risk in derivatives",
+          "Introduction to option strategies (conceptual)",
+          "Outcome: Safe & structured derivative understanding"
+        ]
+      },
+      {
+        "title": "Month 4: Fundamental Analysis & Market Context",
+        "items": [
+          "Company fundamentals (trader & investor view)",
+          "Sector & industry analysis",
+          "Economic indicators basics",
+          "Fundamental + technical alignment",
+          "Outcome: Context-based market decision making"
+        ]
+      },
+      {
+        "title": "Month 5: Advanced Practice & Strategy",
+        "items": [
+          "Strategy building concepts",
+          "Trading psychology & discipline",
+          "Risk & capital management",
+          "Live market case studies",
+          "Trade review & journaling",
+          "Outcome: Professional trading mindset"
+        ]
+      },
+      {
+        "title": "Month 6: Professional Orientation & Career",
+        "items": [
+          "Portfolio basics",
+          "Market ethics & discipline",
+          "Research basics (intro)",
+          "Career paths in stock market",
+          "Final revision & assessments",
+          "Outcome: Market-ready professional confidence"
+        ]
+      }
+    ]
   }
 ]

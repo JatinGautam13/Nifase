@@ -222,8 +222,8 @@ const ContactSection1 = () => {
                                 </svg>
                             </div>
                             <h3 className={styles.infoTitle}>Email Us</h3>
-                            <p className={styles.infoText}>support@linkify.com</p>
-                            <p className={styles.infoText}>hello@linkify.com</p>
+                            <p className={styles.infoText}>info@nifase.com</p>
+                            {/* <p className={styles.infoText}>hello@linkify.com</p> */}
                         </div>
 
                         {/* Phone Card */}
@@ -238,13 +238,17 @@ const ContactSection1 = () => {
                             </div>
                             <h3 className={styles.infoTitle}>Call Us</h3>
                             <p className={styles.infoText}>+1 (555) 123-4567</p>
-                            <p className={styles.infoText}>Mon-Fri 9am-6pm EST</p>
+                            <p className={styles.infoText}>Mon-Sat 10am-6pm EST</p>
                         </div>
 
                         {/* Location Card */}
-                        <div 
+                        <a
                             ref={el => infoCardsRef.current[2] = el}
                             className={styles.infoCard}
+                            href="https://maps.app.goo.gl/ZAyPynLT9YD6KLpf7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Open location in Google"
                         >
                             <div className={styles.iconWrapper}>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -253,9 +257,9 @@ const ContactSection1 = () => {
                                 </svg>
                             </div>
                             <h3 className={styles.infoTitle}>Visit Us</h3>
-                            <p className={styles.infoText}>123 Business Ave</p>
-                            <p className={styles.infoText}>New York, NY 10001</p>
-                        </div>
+                            <p className={styles.infoText}>Savitri Cinema Complex, Block E, Greater Kailash II, Greater Kailash</p>
+                            <p className={styles.infoText}> New Delhi, Delhi 110080</p>
+                        </a>
 
                         {/* Social Card */}
                         <div 
@@ -270,9 +274,9 @@ const ContactSection1 = () => {
                             </div>
                             <h3 className={styles.infoTitle}>Follow Us</h3>
                             <div className={styles.socialLinks}>
-                                <a href="#" className={styles.socialLink}>Twitter</a>
+                                <a href="#" className={styles.socialLink}>Facebook</a>
                                 <a href="#" className={styles.socialLink}>LinkedIn</a>
-                                <a href="#" className={styles.socialLink}>Instagram</a>
+                                <a target='blank' href="https://www.instagram.com/nifase_01/" className={styles.socialLink}>Instagram</a>
                             </div>
                         </div>
                     </div>
