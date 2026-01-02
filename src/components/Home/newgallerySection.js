@@ -150,7 +150,7 @@ export default function GallerySection() {
               </div>
               <div>
                 <h4 className={styles.featureTitle}>Expert Mentors</h4>
-                <p className={styles.featureText}>10+ years industry experience instructors</p>
+                <p className={styles.featureText}>15+ years industry experience instructors</p>
               </div>
             </div>
           </div>
