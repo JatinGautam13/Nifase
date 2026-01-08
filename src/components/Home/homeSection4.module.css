@@ -70,7 +70,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: hsl(var(--primary));
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--primary)) 100%);
   color: hsl(var(--primary-foreground));
   border: none;
   border-radius: 50px;

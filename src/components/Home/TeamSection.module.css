@@ -5,6 +5,7 @@
   padding: 112px 8%;
   display: flex;
   justify-content: center;
+  background: hsl(var(--background));
 }
 
 .section::before {
@@ -18,30 +19,31 @@
   pointer-events: none;
 }
 
-/* blobs */
+/* blobs - updated to match website's green theme */
 .gradientOrb,
 .gradientOrbRight {
   position: absolute;
   border-radius: 999px;
-  filter: blur(60px);
-  opacity: 0.7;
+  filter: blur(80px);
+  opacity: 0.25;
   pointer-events: none;
+  z-index: 0;
 }
 
 .gradientOrb {
-  width: 380px;
-  height: 380px;
-  background: radial-gradient(circle, rgba(129, 140, 248, 0.9), transparent 60%);
-  top: -80px;
-  left: -40px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, hsl(var(--primary) / 0.4), transparent 70%);
+  top: -100px;
+  left: -100px;
 }
 
 .gradientOrbRight {
-  width: 420px;
-  height: 420px;
-  background: radial-gradient(circle, rgba(45, 212, 191, 0.9), transparent 60%);
-  bottom: -120px;
-  right: -80px;
+  width: 650px;
+  height: 650px;
+  background: radial-gradient(circle, hsl(var(--accent) / 0.35), transparent 70%);
+  bottom: -150px;
+  right: -150px;
 }
 
 .inner {
@@ -66,8 +68,8 @@
   gap: 8px;
   padding: 6px 14px;
   border-radius: 999px;
-  background: rgba(15, 23, 42, 0.6);
-  border: 1px solid rgba(148, 163, 184, 0.6);
+  background: hsl(var(--card) / 0.6);
+  border: 1px solid hsl(var(--border));
   backdrop-filter: blur(16px);
   margin-bottom: 18px;
 }
@@ -76,26 +78,26 @@
   width: 8px;
   height: 8px;
   border-radius: 999px;
-  background: #22c55e;
-  box-shadow: 0 0 10px rgba(34, 197, 94, 0.9);
+  background: hsl(var(--primary));
+  box-shadow: 0 0 10px hsl(var(--primary) / 0.8);
 }
 
 .chipText {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  color: rgba(226, 232, 240, 0.9);
+  color: hsl(var(--foreground) / 0.85);
 }
 
 .heading {
   font-size: clamp(30px, 4vw, 38px);
   font-weight: 800;
-  color: #f9fafb;
+  color: hsl(var(--foreground) / 0.95);
   margin: 0 0 10px;
 }
 
 .heading span {
-  background: linear-gradient(135deg, #a855f7, #22c55e);
+  background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -104,7 +106,7 @@
 .subtext {
   font-size: 14px;
   line-height: 1.7;
-  color: rgba(226, 232, 240, 0.82);
+  color: hsl(var(--muted-foreground));
   margin: 0 0 20px;
   max-width: 520px;
 }
@@ -121,7 +123,7 @@
   position: relative;
   padding-left: 18px;
   font-size: 13px;
-  color: rgba(226, 232, 240, 0.86);
+  color: hsl(var(--foreground) / 0.8);
   line-height: 1.6;
 }
 
@@ -131,52 +133,91 @@
   left: 4px;
   top: 2px;
   font-size: 16px;
-  color: #22c55e;
+  color: hsl(var(--primary));
 }
 
 /* RIGHT CARD SIDE */
 .right {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
   position: relative;
   padding: 30px 26px 24px;
   border-radius: 32px;
-  background:
-    radial-gradient(circle at top left, rgba(148, 163, 184, 0.45), transparent 55%),
-    rgba(15, 23, 42, 0.94);
-  border: 1px solid rgba(148, 163, 184, 0.7);
+  background: linear-gradient(135deg, hsl(var(--card) / 0.85), hsl(var(--card) / 0.65));
+  border: 1px solid hsl(var(--border) / 0.6);
   box-shadow:
-    0 26px 70px rgba(15, 23, 42, 0.95),
-    0 0 45px rgba(129, 140, 248, 0.4);
+    0 26px 70px hsl(var(--background) / 0.95),
+    0 0 45px hsl(var(--primary) / 0.15);
   backdrop-filter: blur(24px);
   width: 100%;
   max-width: 400px;
   overflow: hidden;
+  isolation: isolate;
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease,
     border-color 0.25s ease;
 }
 
+/* premium gradient border (matches other NIFASE cards) */
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    hsl(var(--primary) / 0.35),
+    transparent 35%,
+    transparent 65%,
+    hsl(var(--accent) / 0.30)
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* subtle top sheen */
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 25% 10%, hsl(var(--primary) / 0.18), transparent 55%);
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 0;
+}
+
 /* glow behind card */
 .cardGlow {
   position: absolute;
   inset: -40%;
-  background: radial-gradient(circle, rgba(56, 189, 248, 0.22), transparent 70%);
+  background: radial-gradient(circle, hsl(var(--primary) / 0.15), transparent 70%);
   opacity: 0.7;
   pointer-events: none;
-  z-index: -1;
+  z-index: 0;
 }
 
 .card:hover {
   transform: translateY(-10px);
-  border-color: rgba(129, 230, 217, 0.9);
+  border-color: hsl(var(--primary) / 0.5);
   box-shadow:
-    0 30px 80px rgba(15, 23, 42, 1),
-    0 0 55px rgba(56, 189, 248, 0.7);
+    0 30px 80px hsl(var(--background)),
+    0 0 55px hsl(var(--primary) / 0.3);
+}
+
+.card:hover::before {
+  opacity: 1;
 }
 
 /* avatar ring */
@@ -186,18 +227,19 @@
   height: 160px;
   margin: 0 auto 20px auto;
   border-radius: 999px;
-  background: conic-gradient(from 120deg, #22c55e, #38bdf8, #a855f7, #22c55e);
+  background: conic-gradient(from 120deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--primary)));
   padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 }
 
 .avatarGlow {
   position: absolute;
   inset: 10%;
   border-radius: inherit;
-  background: radial-gradient(circle, rgba(148, 163, 184, 0.35), transparent 65%);
+  background: radial-gradient(circle, hsl(var(--primary) / 0.3), transparent 65%);
   filter: blur(8px);
 }
 
@@ -207,7 +249,8 @@
   height: 100%;
   border-radius: 999px;
   object-fit: cover;
-  border: 3px solid rgba(15, 23, 42, 0.95);
+  border: 3px solid hsl(var(--background));
+  z-index: 1;
 }
 
 /* text */
@@ -215,13 +258,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2px;
+  position: relative;
+  z-index: 1;
 }
 
 .role {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  color: rgba(148, 163, 184, 0.9);
+  color: hsl(var(--muted-foreground));
   margin: 4px 0;
   text-align: center;
 }
@@ -229,19 +275,19 @@
 .name {
   font-size: 18px;
   font-weight: 700;
-  color: #f9fafb;
+  color: hsl(var(--foreground) / 0.95);
   margin: 2px 0 6px;
 }
 
 .experience {
   font-size: 13px;
-  color: rgba(226, 232, 240, 0.9);
+  color: hsl(var(--foreground) / 0.85);
   margin: 0 0 4px;
 }
 
 .highlight {
   font-size: 13px;
-  color: rgba(209, 213, 219, 0.9);
+  color: hsl(var(--foreground) / 0.8);
   margin: 0 0 16px;
   text-align: center;
 }
@@ -264,15 +310,15 @@
 
 .star,
 .starHalf {
-  color: #fbbf24;
-  text-shadow: 0 0 8px rgba(251, 191, 36, 0.8);
+  color: hsl(var(--accent));
+  text-shadow: 0 0 8px hsl(var(--accent) / 0.6);
 }
 
 .starHalf {
   background: linear-gradient(
     to right,
-    #fbbf24 0 50%,
-    rgba(148, 163, 184, 0.45) 50% 100%
+    hsl(var(--accent)) 0 50%,
+    hsl(var(--muted-foreground)) 50% 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -281,20 +327,22 @@
 
 .ratingText {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
 }
 
 .ratingValue {
   font-size: 14px;
   font-weight: 600;
-  color: #e5e7eb;
+  color: hsl(var(--foreground) / 0.9);
+  line-height: 1;
 }
 
 .ratingCount {
-  font-size: 11px;
-  color: rgba(148, 163, 184, 0.9);
+  font-size: 12px;
+  color: hsl(var(--muted-foreground));
+  line-height: 1;
 }
 
 /* badges */
@@ -312,8 +360,8 @@
   gap: 6px;
   padding: 4px 10px;
   border-radius: 999px;
-  background: rgba(15, 23, 42, 0.9);
-  border: 1px solid rgba(56, 189, 248, 0.6);
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
 }
 
 .badgeDot,
@@ -324,18 +372,18 @@
 }
 
 .badgeDot {
-  background: #22c55e;
-  box-shadow: 0 0 8px rgba(34, 197, 94, 0.9);
+  background: hsl(var(--primary));
+  box-shadow: 0 0 8px hsl(var(--primary) / 0.8);
 }
 
 .badgeDotSecondary {
-  background: #38bdf8;
-  box-shadow: 0 0 8px rgba(56, 189, 248, 0.9);
+  background: hsl(var(--accent));
+  box-shadow: 0 0 8px hsl(var(--accent) / 0.8);
 }
 
 .badge span {
   font-size: 11px;
-  color: rgba(226, 232, 240, 0.92);
+  color: hsl(var(--foreground) / 0.85);
 }
 
 /* responsive */

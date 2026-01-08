@@ -39,11 +39,11 @@ export default function Home() {
         <HomeSection1 />
         {/* <HomeSection2 /> */}
         <CompanyCarouselSection />
-        <CorporateLearningSection />
-        <NewgallerySection/>
         <WhyJoinSection />
         <TrainingModules />
         <TeamSection />
+        <CorporateLearningSection />
+        <NewgallerySection/>
         <TestimonialSection/>
         <CoursesSection/>
         <WhoCanLearn/>

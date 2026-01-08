@@ -4,8 +4,29 @@ import Image from "next/image";
 import courses from "@/data/courses.json";
 import { Star } from "lucide-react";
 
+function normalize(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .trim();
+}
+
+function isSixMonthDuration(duration) {
+  const d = normalize(duration);
+  return /\b6\s*month(s)?\b/.test(d);
+}
+
 export default function CoursesSection() {
-  const coursesToShow = courses.slice(0, 6);
+  const coursesToShow = courses
+    .map((course, index) => ({ course, index }))
+    .sort((a, b) => {
+      const aPopular = isSixMonthDuration(a.course?.duration);
+      const bPopular = isSixMonthDuration(b.course?.duration);
+
+      if (aPopular !== bPopular) return aPopular ? -1 : 1;
+      return a.index - b.index;
+    })
+    .map(({ course }) => course)
+    .slice(0, 6);
 
   return (
     <section className={styles.section}>
@@ -39,7 +60,7 @@ export default function CoursesSection() {
             return (
               <article key={course.id} className={styles.card}>
                 <div className={styles.imageWrap}>
-                  {course.popular && (
+                  {isSixMonthDuration(course.duration) && (
                     <span
                       className={styles.popularBadge}
                       aria-label="Popular course"

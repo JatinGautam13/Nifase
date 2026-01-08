@@ -10,6 +10,17 @@
   overflow: hidden;
 }
 
+/* Background image (kept local in /public to avoid external licensing issues) */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/ayoohill.webp') center center / cover no-repeat;
+  opacity: 0.18;
+  pointer-events: none;
+  filter: grayscale(1) sepia(1) hue-rotate(90deg) saturate(2);
+}
+
 .hero::before {
   content: '';
   position: absolute;
@@ -22,11 +33,12 @@
     linear-gradient(90deg, hsl(var(--foreground) / 0.03) 1px, transparent 1px);
   background-size: 60px 60px;
   pointer-events: none;
+  z-index: 1;
 }
 
 .container {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   text-align: center;
   padding: 4rem 0rem 0rem;
   max-width: 920px;
@@ -36,7 +48,11 @@
 .title {
   font-size: 3.5rem;
   font-weight: 700;
-  color: hsl(var(--foreground));
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--primary)) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   margin: 0 0 1.5rem 0;
   line-height: 1.2;
   letter-spacing: -0.02em;
@@ -92,20 +108,52 @@
   height: 18px;
 }
 
-.reviewsLink {
+.contactButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.95rem 2.1rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 999px;
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(var(--foreground));
+  background: hsl(var(--background) / 0.45);
+  border: 1px solid hsl(var(--border) / 0.75);
+  backdrop-filter: blur(12px);
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.contactButton:hover {
+  transform: translateY(-2px);
+  border-color: hsl(var(--primary) / 0.55);
+  background: hsl(var(--background) / 0.6);
+}
+
+.reviewsBottom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.75rem auto 0;
+  width: fit-content;
   color: hsl(var(--muted-foreground));
   text-decoration: none;
   font-size: 1rem;
-  display: flex;
-  align-items: center;
   gap: 0.5rem;
-  transition: all 0.3s ease;
+  transition: transform 0.2s ease, color 0.2s ease;
   font-weight: 600;
+  background: hsl(var(--background) / 0.4);
+  border: 1px solid hsl(var(--border) / 0.7);
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  backdrop-filter: blur(10px);
 }
 
-.reviewsLink:hover {
+.reviewsBottom:hover {
   color: hsl(var(--foreground));
-  transform: translateX(5px);
+  transform: translateY(-2px);
+  border-color: hsl(var(--primary) / 0.5);
 }
 
 .starIcon {
@@ -132,6 +180,13 @@
   .joinButton {
     padding: 0.875rem 2.5rem;
     font-size: 1rem;
+    width: min(420px, 100%);
+  }
+
+  .contactButton {
+    padding: 0.875rem 2.5rem;
+    font-size: 1rem;
+    width: min(420px, 100%);
   }
 }
 
@@ -146,5 +201,10 @@
   
   .container {
     padding: 3rem 1.5rem;
+  }
+
+  .reviewsBottom {
+    margin-top: 1.25rem;
+    font-size: 0.95rem;
   }
 }

@@ -19,16 +19,20 @@ const CoursesSec1 = () => {
         </p>
         
         <div className={styles.actions}>
-          <Link className={styles.joinButton} href="/contact-us">
+          <Link className={styles.joinButton} href="#all-courses">
             Join Now
             <ArrowRight className={styles.joinIcon} />
           </Link>
-          
-          <a href="#reviews" className={styles.reviewsLink}>
-            <Star className={styles.starIcon} />
-            72k+ Reviews
-          </a>
+
+          <Link className={styles.contactButton} href="/contact-us">
+            Contact Now
+          </Link>
         </div>
+
+        <a href="#reviews" className={styles.reviewsBottom}>
+          <Star className={styles.starIcon} />
+          72k+ Reviews
+        </a>
       </div>
     </section>
   );

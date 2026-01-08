@@ -93,39 +93,48 @@
   aspect-ratio: 21 / 9;
   background: hsl(var(--card));
   border-bottom: 1px solid hsl(var(--border) / 0.5);
+  isolation: isolate;
 }
 
 .image {
   object-fit: cover;
+  z-index: 0;
 }
 
 .popularBadge {
   position: absolute;
-  top: 0.75rem;
-  left: 0.75rem;
-  z-index: 2;
+  top: 3rem;
+  left: -2rem;
+  z-index: 5;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.45rem 0.7rem;
-  border-radius: 999px;
+  padding: 0.4rem 2.2rem;
+  border-radius: 0.45rem;
   font-size: 0.75rem;
   font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  white-space: nowrap;
   color: hsl(var(--primary-foreground));
   border: 1px solid hsl(var(--primary) / 0.65);
   background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+  transform: rotate(-34deg);
+  transform-origin: left top;
   box-shadow:
     0 0 0 1px hsl(var(--primary) / 0.25),
-    0 12px 30px hsl(var(--primary) / 0.35);
+    0 12px 30px hsl(var(--primary) / 0.35),
+    0 0 22px hsl(var(--primary) / 0.45),
+    0 0 52px hsl(var(--primary) / 0.22);
+  text-shadow: 0 1px 12px hsl(var(--primary-foreground) / 0.3);
   overflow: hidden;
+  pointer-events: none;
 }
 
 .popularBadge::after {
   content: "";
   position: absolute;
-  inset: -40% -60%;
+  inset: 50% -60%;
   background: linear-gradient(
     120deg,
     transparent,
@@ -151,6 +160,16 @@
 @media (prefers-reduced-motion: reduce) {
   .popularBadge::after {
     animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .popularBadge {
+    top: 0.75rem;
+    left: -1.6rem;
+    padding: 0.35rem 2.2rem;
+    font-size: 0.7rem;
+    transform: rotate(-34deg);
   }
 }
 

@@ -3,12 +3,18 @@
 import React, { useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Star } from "lucide-react";
 import styles from "./CoursesSec2.module.css";
 
 function normalize(value) {
   return String(value ?? "")
     .toLowerCase()
     .trim();
+}
+
+function isSixMonthDuration(duration) {
+  const d = normalize(duration);
+  return /\b6\s*month(s)?\b/.test(d);
 }
 
 function courseSearchText(course) {
@@ -49,7 +55,7 @@ export default function CoursesSec2({ courses = [] }) {
   const filtered = useMemo(() => {
     const q = normalize(query);
 
-    return courses.filter((course) => {
+    const matches = courses.filter((course) => {
       if (selectedCategories.length > 0 && !selectedCategories.includes(course.category)) {
         return false;
       }
@@ -59,6 +65,17 @@ export default function CoursesSec2({ courses = [] }) {
       if (!q) return true;
       return courseSearchText(course).includes(q);
     });
+
+    return matches
+      .map((course, index) => ({ course, index }))
+      .sort((a, b) => {
+        const aPopular = isSixMonthDuration(a.course?.duration);
+        const bPopular = isSixMonthDuration(b.course?.duration);
+
+        if (aPopular !== bPopular) return aPopular ? -1 : 1;
+        return a.index - b.index;
+      })
+      .map(({ course }) => course);
   }, [courses, query, selectedCategories, selectedLevels]);
 
   const toggleInList = (list, value, setList) => {
@@ -72,7 +89,7 @@ export default function CoursesSec2({ courses = [] }) {
   };
 
   return (
-    <main className={styles.page}>
+    <main id="all-courses" className={styles.page}>
       <div className={styles.container}>
         <section className={styles.wrapper} aria-label="Search and filter courses">
           <header className={styles.header}>
@@ -154,10 +171,16 @@ export default function CoursesSec2({ courses = [] }) {
                     if (highlights.length >= 3) break;
                   }
 
+                  const rating = Number(course.rating ?? 0);
+                  const reviewCount = Number(course.reviewCount ?? 0);
+                  const formattedReviewCount = reviewCount
+                    ? `(${reviewCount.toLocaleString()} ratings)`
+                    : "";
+
                   return (
                     <article key={course.id} className={styles.card}>
                       <div className={styles.imageWrap}>
-                        {course.popular && (
+                        {isSixMonthDuration(course.duration) && (
                           <span className={styles.popularBadge} aria-label="Popular course">
                             Popular
                           </span>
@@ -176,6 +199,18 @@ export default function CoursesSec2({ courses = [] }) {
                           <span className={styles.badge}>{course.level}</span>
                           <span className={styles.badge}>{course.duration}</span>
                         </div>
+
+                        {rating > 0 && (
+                          <div className={styles.ratingRow} aria-label="Course rating">
+                            <Star className={styles.starIcon} aria-hidden="true" />
+                            <span className={styles.ratingValue}>
+                              {Number.isFinite(rating) ? rating.toFixed(1) : ""}
+                            </span>
+                            {formattedReviewCount && (
+                              <span className={styles.ratingCount}>{formattedReviewCount}</span>
+                            )}
+                          </div>
+                        )}
 
                         <div className={styles.meta}>{course.category}</div>
 
