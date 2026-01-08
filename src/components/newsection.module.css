@@ -28,6 +28,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem;
+  cursor: default;
 }
 
 /* LEFT SIDE */
@@ -42,13 +43,17 @@
   background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--primary)) 100%);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
-  ;
 }
 
 .subheading {
   font-size: clamp(1rem, 2.2vw, 18px);
-  color: hsl(var(--primary));
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--primary)) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 32px;
 }
 
@@ -70,8 +75,16 @@
   border: 1px solid hsl(var(--primary) / 0.14);
   border-radius: 14px;
   padding: clamp(16px, 2.4vw, 22px) clamp(16px, 2.6vw, 24px);
-  cursor: pointer;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease, margin-top 0.3s ease;
+  transition:
+    border-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.list li:hover {
+  border-color: hsl(var(--primary) / 0.35);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px hsl(var(--foreground) / 0.08);
 }
 
 .cardTitle {
@@ -84,57 +97,19 @@
 
 /* PREVIEW CARD */
 .preview {
-  position: absolute;
-  left: calc(100% + 16px);
-  top: 50%;
-  transform: translateY(-50%) translateX(-6px);
-  width: 280px;
+  position: static;
+  width: 100%;
   background: linear-gradient(180deg, hsl(var(--card)), hsl(var(--background)));
   border: 1px solid hsl(var(--primary) / 0.25);
   border-radius: 14px;
   padding: 18px 20px;
+  margin-top: 12px;
   font-family: var(--font-heading, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
   font-size: 13.5px;
   line-height: 1.6;
-  color: hsl(var(--muted-foreground));
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 20px 40px hsl(var(--background) / 0.6);
-  z-index: 20;
-}
-
-/* HOVER EFFECTS - LEFT SIDE */
-.list li:hover {
-  border-color: hsl(var(--primary) / 0.45);
-  box-shadow: 0 0 20px hsl(var(--primary) / 0.12);
-  margin-top: -6px;
-  z-index: 5;
-}
-
-.list li:hover .cardTitle {
-  color: hsl(var(--primary));
-}
-
-.list li:hover .preview {
+  color: white;
   opacity: 1;
-  transform: translateY(-50%) translateX(0);
-}
-
-.list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 3px;
-  height: 100%;
-  background: linear-gradient(180deg, hsl(var(--primary)), transparent);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.list li:hover::before {
-  opacity: 1;
+  pointer-events: auto;
 }
 
 /* RIGHT SIDE */
@@ -144,8 +119,9 @@
   border-radius: 18px;
   padding: clamp(18px, 3.2vw, 40px);
   position: sticky;
-  top: 100px;
+  top: 200px;
   height: fit-content;
+cursor: default;
 }
 
 .rightTitle {
@@ -158,6 +134,10 @@
   font-weight: 700;
 }
 
+.rightTitle span {
+  color: hsl(var(--foreground));
+}
+
 .companyGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -166,38 +146,43 @@
 
 .companyCard {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 12px;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
   background: hsl(var(--primary) / 0.06);
   border: 1px solid hsl(var(--primary) / 0.2);
   border-radius: 12px;
   padding: 16px 20px;
   transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  cursor: pointer;
   overflow: hidden;
 }
 
 .companyCard:hover {
-  background: hsl(var(--primary) / 0.353);
-  border-color: hsl(var(--primary) / 0.5);
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px hsl(var(--primary) / 0.25);
+  border-color: hsl(var(--primary) / 0.4);
+  background: hsl(var(--primary) / 0.09);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px hsl(var(--foreground) / 0.08);
+}
+
+.companyCard:hover .svgLogo {
+  transform: scale(1.03);
 }
 
 /* SVG LOGOS ON LEFT */
 .logoContainer {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .svgLogo {
-  width: 32px;
-  height: 28px;
+  width: clamp(64px, 7vw, 96px);
+  height: 44px;
   transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.companyCard:hover .svgLogo {
-  transform: scale(1.3) rotate(8deg);
-  filter: drop-shadow(0 0 12px hsl(var(--primary) / 0.9)) brightness(1.4);
 }
 
 .companyName {
@@ -205,7 +190,6 @@
   line-height: 1.3;
   font-weight: 600;
   color: hsl(var(--foreground));
-  flex: 1;
 }
 
 /* RESPONSIVE */
@@ -213,9 +197,6 @@
   .container {
     grid-template-columns: 1fr;
     padding: 0 1.25rem;
-  }
-  .preview {
-    display: none;
   }
   .right {
     position: static;
@@ -239,13 +220,13 @@
   }
   
   .svgLogo {
-    width: 28px;
-    height: 24px;
+    width: 72px;
+    height: 40px;
   }
   
   .companyCard {
     padding: 14px 16px;
-    gap: 10px;
+    gap: 8px;
   }
 }
 

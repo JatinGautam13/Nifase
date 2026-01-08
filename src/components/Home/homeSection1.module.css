@@ -154,7 +154,8 @@
 .badgeText {
     font-size: 0.875rem;
     font-weight: 500;
-    color: hsl(var(--primary));
+    /* color: hsl(var(--primary)); */
+    color: white;
 }
 
 @keyframes livePulse {

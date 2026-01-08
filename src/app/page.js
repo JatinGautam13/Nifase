@@ -21,6 +21,9 @@ import WhoCanLearn from "@/components/Home/whocanlearn";
 import CoursesSection from "@/components/Home/CoursesSection";
 import BookMeeting from "@/components/BookMeeting";
 import CompanyCarouselSection from "@/components/Home/CompanyCarouselSection";
+import WhyJoinSection from "@/components/Home/WhyJoinSection";
+import TrainingModules from "@/components/Home/TrainingModules";
+import TeamSection from "@/components/Home/TeamSection";
 export default function Home() {
   const [loading, setLoading] = useState(true);
 
@@ -38,6 +41,9 @@ export default function Home() {
         <CompanyCarouselSection />
         <CorporateLearningSection />
         <NewgallerySection/>
+        <WhyJoinSection />
+        <TrainingModules />
+        <TeamSection />
         <TestimonialSection/>
         <CoursesSection/>
         <WhoCanLearn/>

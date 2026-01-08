@@ -80,7 +80,7 @@ export default function NewSection() {
 
         {/* RIGHT SIDE - SVG LOGOS ON LEFT */}
         <div className={styles.right}>
-          <h3 className={styles.rightTitle}>Trusted by India's Top Firms</h3>
+          <h3 className={styles.rightTitle}>Trusted by <span>India's Top</span> Firms</h3>
 
           <div className={styles.companyGrid}>
             {[
@@ -193,9 +193,9 @@ export default function NewSection() {
                   </svg>
                 )
               }
-            ].map(({ name, svg }, index) => (
-              <div key={index} className={styles.companyCard}>
-                <div className={styles.logoContainer}></div>
+            ].map(({ name, svg }) => (
+              <div key={name} className={styles.companyCard}>
+                <div className={styles.logoContainer} aria-hidden="true">{svg}</div>
                 <span className={styles.companyName}>{name}</span>
               </div>
             ))}
