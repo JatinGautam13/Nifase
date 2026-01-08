@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 100vh;
   /* background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); */
-  padding: clamp(3rem, 8vw, 6rem) 0;
+  padding: clamp(0rem, 8vw, 6rem) 0;
   overflow: hidden;
 }
 
